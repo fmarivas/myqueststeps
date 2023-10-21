@@ -18,7 +18,7 @@ $google_service = new Google_Service_Oauth2($google_client);
 
 
 
-$conn=mysqli_connect("localhost","root","","techtvto_FelixViage");
+$conn=mysqli_connect("db-instance-quest-site.cjq2a6j8eeor.us-east-1.rds.amazonaws.com","admin","Olvinha01","db-test-quest");
 
 ?>
 
