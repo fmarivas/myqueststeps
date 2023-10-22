@@ -540,9 +540,9 @@
              var price=$(this).data('price');
               var plan=$(this).data('plan');
               if(price == "0.1"){
-                  window.location='https://techixpert.com/clients/FelixViage/submit_payment.php?price='+price+'&plan='+plan+'&id='+id;
+                  window.location='http://ec2-3-88-224-223.compute-1.amazonaws.com/submit_payment.php?price='+price+'&plan='+plan+'&id='+id;
               }else{
-                  window.location='https://techixpert.com/clients/FelixViage/paypal.php?price='+price+'&plan='+plan+'&id='+id;
+                  window.location='http://ec2-3-88-224-223.compute-1.amazonaws.com/paypal.php?price='+price+'&plan='+plan+'&id='+id;
               }
               
          })
