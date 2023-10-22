@@ -13,7 +13,11 @@ if(isset($_SESSION['user'])){
 
  <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
-                <li class="sidebar-brand"></li>
+                <li class="sidebar-brand">
+					<div id="logo-overlay">
+						<img src="../assets/logo.png" alt="QuestSteps">
+					</div>					
+				</li>
                 <li>
                     <a class="<?php echo $web_dash;?>" href="dashboard.php">
                         Dashboard

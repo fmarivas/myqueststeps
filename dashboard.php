@@ -46,9 +46,12 @@
          font-size: 22px;
          color: #888;
          }
+		 
+		
       </style>
       <div id="wrapper">
          <!-- Sidebar -->
+		 
          <?php
             $web_dash = "active";
             include("container/menu.php"); ?>
@@ -76,7 +79,7 @@
                         
                         <div class="user-name"><?php echo $_SESSION['user']['fname']." ",$_SESSION['user']['lname']; ?></div>
                         <div class="welcome-message"><b>Welcome to our website!</b></div>
-                        <div class="welcome-message" style="font-size:16px; margin-top:10px;"><strong>QuestSteps</strong> is the easiest way to create amazing biopics about people and companies. Our platform offers a unique, streamlined approach to turning your ideas into captivating scripts. To get started, click NEW and fill in the information so we can create the ideal itinerary for you.</div>
+                        <div class="welcome-message" style="font-size:16px; margin-top:10px;text-align: justify;"><strong>QuestSteps</strong> is the easiest way to create amazing biopics about people and companies. Our platform offers a unique, streamlined approach to turning your ideas into captivating scripts. To get started, click <strong>NEW</strong> and fill in the information so we can create the ideal itinerary for you.</div>
                      </div>
                   </div>
                </div>
