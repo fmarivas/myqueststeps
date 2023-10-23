@@ -15,8 +15,8 @@ if(isset($_SESSION['user'])){
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
 					<div id="logo-overlay">
-						<img src="../assets/logo.png" alt="QuestSteps">
-					</div>					
+						<img src="../assets/logo.png" style="width: 60px; height: 60px;" alt="QuestSteps">
+					</div>				
 				</li>
                 <li>
                     <a class="<?php echo $web_dash;?>" href="dashboard.php">
